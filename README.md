@@ -4,11 +4,17 @@ The function is directly derived and improves the "Gas Gauge Spreadsheet" (https
 
 ## Options
 temp: numeric vector or data.frame/matrix with numeric data in the first column.
+
 sampling_interval: Sampling interval in minutes.
-prev_charge: Battery charge in maH before the beginning of the current mission. The initial battery charge is 48 maH.
+
+prev_charge: Battery charge in maH before the beginning of the current mission. The factory fresh battery charge is 48 maH.
+
 humidity: if TRUE then humidity was sampled together with temperature.
+
 res: numeric resolution of the converted temperature, "8bit" or "11bit".
+
 plotting: if TRUE the cumulative used charge is plotted against each sample
+
 printing: if TRUE ibutton settings and battery consumption metrics are printed on the screen
 
 ## References:
